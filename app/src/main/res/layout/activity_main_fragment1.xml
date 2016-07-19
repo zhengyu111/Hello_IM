@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#020202">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_zhuce"
+        android:hint="用户名"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#ffffffff"
+        android:textSize="10dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:id="@+id/password_zhuce"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/username_zhuce"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:textSize="10dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示密码"
+        android:id="@+id/cb_f1"
+        android:layout_below="@+id/password_zhuce"
+        android:checked="false"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffffff"
+        android:textSize="10dp" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="注册"
+        android:id="@+id/registed_btn"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:background="@drawable/shadow_btn"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建账户，表示你同意服务条款和隐私条款"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/cb_f1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="7dp"
+        android:textColor="#ffffffff" />
+
+
+</RelativeLayout>
